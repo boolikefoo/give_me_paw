@@ -5,6 +5,9 @@ body {
 html, body {
     height:100%;
 }
+.clear {
+    clear: both;
+}
 .page {
     width:1024px;
     box-shadow: 0 0 10px rgba(2, 22, 24, 0.5);
@@ -43,6 +46,13 @@ a.logo_link {
 }
 
 /*-------END OF SLIDER--------*/
+
+/*----------LEFT SIDEBAR---------*/
+.leftSideBar {
+    width:350px;
+    float:left;
+}
+/*----------LEFT SIDEBAR---------*/
 
 /*----------NEWS*----------*/
 .news {
