@@ -27,6 +27,11 @@
             });
         });
     </script>
+    <script>
+        $( "#drop" ).click(function() {
+            $( "sndLevel" ).toggle();
+        });
+    </script>
 </head>
 <body>
 
@@ -39,7 +44,15 @@
                 <li class="fLevel"><a href="#" class="mLink">Главная</a></li>
                 <li class="fLevel"><a href="#" class="mLink">О нас</a></li>
                 <li class="fLevel"><a href="#" class="mLink">Статьи</a></li>
-                <li class="fLevel"><a href="#" class="mLink">Товары</a></li>
+                <li class="fLevel"><a href="#" class="mLink" id="drop">Товары</a>
+                    <ul class="sndLevel">
+                        <li class="sLevel"><a href="" class="mLink">Собаки</a></li>
+                        <li class="sLevel"><a href="" class="mLink">Кошки</a></li>
+                        <li class="sLevel"><a href="" class="mLink">Грызуны</a></li>
+                        <li class="sLevel"><a href="" class="mLink">Птицы</a></li>
+                        <li class="sLevel"><a href="" class="mLink">Рыбки</a></li>
+                    </ul>
+                </li>
                 <li class="fLevel"><a href="#" class="mLink">Услуги</a></li>
                 <li class="fLevel"><a href="#" class="mLink">Контакты</a></li>
             </ul>
