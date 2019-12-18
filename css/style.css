@@ -109,5 +109,16 @@ ul.menu li a {
 /*----------END OF SALES----------*/
 
 /*----------FOOTER----------*/
-footer {}
+.footer {
+    min-height: 300px;
+    display: flex;
+    justify-content: space-around;
+    background-color: burlywood;
+    align-items: center;
+}
+.fblock {
+    width: 220px;
+    height:200px;
+    background-color: darkslategrey;
+}
 /*----------END FOOTER----------*/
